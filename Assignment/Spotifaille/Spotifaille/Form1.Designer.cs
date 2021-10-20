@@ -84,6 +84,7 @@ namespace Spotifaille
             this.connexionButton.TabIndex = 4;
             this.connexionButton.Text = "Se connecter";
             this.connexionButton.UseVisualStyleBackColor = true;
+            this.connexionButton.Click += new System.EventHandler(this.connexionButton_Click);
             // 
             // creerCompteButton
             // 
